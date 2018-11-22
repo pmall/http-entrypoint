@@ -1,0 +1,38 @@
+{
+    "name": "quanta/http-entrypoint",
+    "type": "library",
+    "description": "Http entrypoint for Psr-15 applications",
+    "keywords": [
+        "psr-15",
+        "http",
+        "entrypoint",
+        "request-handler"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/quanta/http-entrypoint",
+    "support": {
+        "issues": "https://github.com/quanta/http-entrypoint/issues",
+        "source": "https://github.com/quanta/http-entrypoint"
+    },
+    "authors": [
+        {
+            "name": "pmall",
+            "email": "pierre.mallinjoud@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "psr/http-message": "^1.0",
+        "psr/http-server-handler": "^1.0",
+        "nyholm/psr7-server": "^0.3.0"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^4.0",
+        "eloquent/phony-kahlan": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Quanta\\Http\\": "src"
+        }
+    }
+}
